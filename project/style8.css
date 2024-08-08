@@ -1,0 +1,60 @@
+body
+{
+        background-image: url('d6.jpg');
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+}
+.header--wrapper
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: gray;
+  border-radius: 10px;
+  padding: 10px 2rem;
+  margin-bottom: 1rem;
+}
+nav
+{
+    background-color: slategray;
+    color: #fff;
+    padding: 0.5em;
+}
+nav ul 
+{
+    list-style:none;
+    margin: 0;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+nav li 
+{
+    display: inline;
+    margin-right: 15px;
+}
+nav a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+.card
+{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+}
+
